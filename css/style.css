@@ -1,0 +1,11 @@
+/*Estrutura do site
+----------------------------*/
+body {
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
