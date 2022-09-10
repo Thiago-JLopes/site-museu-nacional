@@ -31,10 +31,34 @@
             <li><a href="">Fotos</a></li>
             <li><a href="">Contato</a></li>
           </ul>
-        </nav>
-        <!--Fim nav-->
+        </nav><!--Fim nav-->
       </header>
-    </div>
-    <!--Fim container-->
+
+      <div id="principal"><!--Início conteúdo principal-->
+        <div id="conteudo">
+            <section id="capa">
+                <img src="img/museu.png" alt="museu">
+            </section>
+        </div>
+        <aside>
+            <section id="depoimento">
+                <img src="img/depoimento.png" alt="depoimento">
+            </section>
+
+            <section id="visita">
+                <h4>Faça uma visita</h4>
+                <fieldset>
+                    <legend>Selecione uma data</legend>
+                    <label for="data">Data</label>
+                    <input type="text" id="data" value="dd/mm/aaaa">
+
+                    <label for="qtd">Qtd pessoas</label>
+                    <input type="text" id="qtd" value="1">
+                </fieldset>
+                <input type="sumit" value="verificar disponibilidade">
+            </section>
+        </aside>
+      </div><!--Fim conteúdo principal-->
+    </div> <!--Fim container-->
   </body>
 </html>
